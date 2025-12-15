@@ -1,11 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Grndwork</h1>
-</body>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<nav class="bg-[#F2EFE8] border-b border-gray-200">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex h-16 items-center justify-between">
+
+      <!-- Logo -->
+      <div class="nav-logo">
+        
+      </div>
+
+      <!-- Desktop Links -->
+      <div class="hidden lg:flex space-x-8">
+        <a href="#" class="text-gray-700 hover:text-black">Pilates</a>
+        <a href="#" class="text-gray-700 hover:text-black">Education</a>
+        <a href="#" class="text-gray-700 hover:text-black">About</a>
+        <a href="#" class="text-gray-700 hover:text-black">Contact</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="menuBtn"
+        class="lg:hidden p-2 text-gray-700 focus:outline-none"
+      >
+        <!-- Hamburger Icon -->
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+    </div>
+  </div>
+</nav>
+
+
+<div
+  id="mobileMenu"
+  class="fixed inset-0 z-50 hidden bg-white"
+>
+  <!-- Close Button -->
+  <div class="flex justify-end p-6">
+    <button
+      id="closeBtn"
+      class="text-3xl font-light text-gray-700"
+    >
+      &times;
+    </button>
+  </div>
+
+  <!-- Menu Links -->
+  <nav class="flex flex-col items-center justify-center space-y-8 text-2xl font-medium">
+    <a href="#" class="hover:text-gray-500">Link One</a>
+    <a href="#" class="hover:text-gray-500">Link Two</a>
+    <a href="#" class="hover:text-gray-500">Link Three</a>
+    <a href="#" class="hover:text-gray-500">Link Three</a>
+  </nav>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
 </html>
