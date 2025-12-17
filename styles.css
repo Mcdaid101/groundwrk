@@ -17,3 +17,19 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+.home-2 {
+	background-image: url('./assets/gk2.jpeg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.instagram-media {
+  max-width: 100% !important;
+  min-width: 0 !important;
+}
+
+.instagram-media iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
