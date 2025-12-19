@@ -19,10 +19,13 @@
 }
 
 .home-2 {
-	background-image: url('./assets/gk2.jpeg');
-	background-size: contain;
-	background-repeat: no-repeat;
+  background-image: url('./assets/gk1.jpeg');
+  background-size: cover;       /* fills the container */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat;                /* fills the flex column height */
 }
+
+
 
 .instagram-media {
   max-width: 100% !important;
