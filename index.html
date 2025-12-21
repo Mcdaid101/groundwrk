@@ -9,10 +9,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
-<body class="font-sans text-lg font-light tracking-wide">
+<body class="font-sans text-lg font-light tracking-wide overflow-x-hidden">
 
   <!-- NAVBAR -->
-  <nav class="bg-[#F2EFE8] h-[72px]">
+  <nav class="bg-[#F2EFE8] h-[72px] w-full">
     <div class="max-w-7xl mx-auto px-4">
       <div class="flex h-full items-center justify-between">
 
@@ -41,199 +41,199 @@
     </div>
   </nav>
 
-<!-- Page wrapper -->
-<div class="min-h-screen bg-white text-[#352b26] font-sans">
+  <!-- Page wrapper -->
+  <div class="min-h-screen bg-white text-[#352b26] font-sans overflow-x-hidden">
 
-  <!-- Hero / Classes section -->
-  <section class="max-w-6xl mx-auto px-6 py-16 lg:flex lg:items-center lg:gap-16">
-    <!-- Image -->
-    <div class="lg:w-1/2 mb-10 lg:mb-0">
-      <div class="overflow-hidden rounded-lg bg-gray-200">
-        <!-- Replace src with your pilates image -->
-        <img
-          src="/assets/gk1.jpeg"
-          alt="Pilates class"
-          class="w-full h-full object-cover"
-        />
+    <!-- Hero / Classes section -->
+    <section class="w-full bg-white">
+      <div class="w-full px-4 sm:px-6 py-10 sm:py-16 lg:flex lg:items-center lg:gap-16">
+        <!-- Image -->
+        <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+          <div class="w-full overflow-hidden rounded-lg bg-gray-200">
+            <img
+              src="/assets/gk1.jpeg"
+              alt="Pilates class"
+              class="w-full h-full object-cover max-w-full"
+            />
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="w-full lg:w-1/2 max-w-full">
+          <h2 class="text-2xl sm:text-3xl tracking-[0.2em] font-[Playfair_Display] uppercase text-gray-700 mb-4">
+            Grndwork Club Classes
+          </h2>
+          <p class="text-base leading-relaxed text-gray-700 mb-3">
+            Our classes are designed to both strengthen and stretch your body. Using a series of
+            Pilates movements, we focus on building overall strength through the core while
+            improving mobility.
+          </p>
+          <p class="text-base leading-relaxed text-gray-700">
+            These sessions help you move with greater ease and confidence in everyday life.
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Text -->
-    <div class="lg:w-1/2">
-      <h2 class="text-3xl tracking-[0.2em] font-[Playfair_Display] uppercase text-gray-700 mb-4">
-        Grndwork Club Classes
-      </h2>
-      <p class="text-base leading-relaxed text-gray-700 mb-3">
-        Our classes are designed to both strengthen and stretch your body. Using a series of
-        Pilates movements, we focus on building overall strength through the core while
-        improving mobility.
-      </p>
-      <p class="text-base leading-relaxed text-gray-700">
-        These sessions help you move with greater ease and confidence in everyday life.
-      </p>
+    <!-- Promo / Pricing block -->
+    <section class="w-full bg-[#f5f0ea]">
+      <div class="w-full px-4 sm:px-6 pb-16 pt-12 lg:grid lg:grid-cols-2 lg:items-stretch lg:gap-8">
+        <!-- Text + price card -->
+        <div class="w-full flex flex-col justify-center bg-[#f5f0ea] border border-[#e3d6cc] px-6 sm:px-10 py-10 sm:py-12 max-w-full">
+          <h3 class="text-xs sm:text-sm tracking-[0.3em] font-[Playfair_Display] uppercase text-gray-600 mb-4">
+            Move Through Christmas
+          </h3>
+
+          <p class="text-2xl sm:text-3xl text-gray-800 mb-1">
+            €25.00
+          </p>
+          <p class="text-xs sm:text-sm uppercase tracking-[0.25em] text-gray-500 mb-6">
+            One time
+          </p>
+
+          <p class="text-sm leading-relaxed text-gray-700 mb-6">
+            Stay moving this Christmas with the Grnwork. This Christmas On Demand
+            Studio includes 10 Pilates classes designed to fit around your festive plans, helping
+            you stay strong, calm, and connected.
+          </p>
+          <p class="text-sm leading-relaxed text-gray-700 mb-8">
+            Access energising, restorative, and cool‑down sessions anytime, anywhere.
+          </p>
+
+          <button
+            class="inline-flex items-center justify-center rounded-none border border-gray-800 px-6 sm:px-8 py-3 text-[10px] sm:text-xs font-semibold tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition"
+          >
+            Sign Up &amp; Move with us
+          </button>
+        </div>
+
+        <!-- Right-side image / decorative area -->
+        <div class="w-full mt-8 lg:mt-0 relative overflow-hidden rounded-lg max-w-full">
+          <img
+            src="/assets/gk2.jpeg"
+            alt="Christmas promo"
+            class="w-full h-full object-cover max-w-full"
+          />
+          <div class="absolute inset-0 flex items-end justify-start p-6 sm:p-10 pointer-events-none">
+            <p class="text-4xl sm:text-5xl md:text-6xl font-serif text-white/70 tracking-[0.15em] font-[Playfair_Display] uppercase">
+              Christmas
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- In Person / lower section -->
+  <section class="w-full bg-white">
+    <div class="w-full px-4 sm:px-6 py-16 sm:py-24">
+      <!-- In Person Classes -->
+      <div class="mb-16">
+        <h2 class="text-2xl md:text-3xl font-[Playfair_Display] text-gray-800 mb-3">
+          In Person Classes
+        </h2>
+        <p class="text-sm md:text-base text-gray-600 mb-6">
+          All of Georgia's in‑person classes are based in Letterkenny County Donegal.
+        </p>
+        <a
+          href="#"
+          class="inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition"
+        >
+          Grnwork pilates &amp; Wellness Studio
+        </a>
+      </div>
+
+      <!-- Bottom area -->
+      <div class="grid md:grid-cols-[minmax(0,1.5fr)_minmax(0,2fr)] gap-10 items-start w-full max-w-full">
+        <!-- Newsletter + contact -->
+        <div class="w-full max-w-full">
+          <h3 class="text-xl font-[Playfair_Display] mb-6">
+            Grndwork.
+          </h3>
+
+          <div class="mb-8">
+            <p class="text-sm text-gray-700 mb-3">
+              Subscribe to the Grndwork Pilates Club newsletter
+            </p>
+            <button
+              class="w-full sm:w-auto inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition rounded-none"
+            >
+              Subscribe to the Grndwork Club Newsletter
+            </button>
+          </div>
+
+          <div class="font-[Playfair_Display] text-gray-700 space-y-2">
+            <p>Any queries or questions email us!</p>
+            <a
+              href="mailto:georgia@Grndwork.com"
+              class="underline underline-offset-2 decoration-gray-700 hover:text-gray-900 break-all"
+            >
+              georgia@Grndwork.com
+            </a>
+          </div>
+        </div>
+
+        <!-- Instagram-style grid -->
+        <div class="w-full max-w-full grid grid-cols-3 gap-2 md:gap-3">
+          <img src="/assets/gk1.jpeg" alt="Pilates 1" class="w-full h-24 md:h-32 object-cover" />
+          <img src="/assets/gk1.jpeg" alt="Pilates 2" class="w-full h-24 md:h-32 object-cover" />
+          <img src="/assets/gk1.jpeg" alt="Pilates 3" class="w-full h-24 md:h-32 object-cover" />
+
+          <img src="/assets/gk1.jpeg" alt="Pilates 4" class="w-full h-24 md:h-32 object-cover" />
+          <img src="/assets/gk1.jpeg" alt="Pilates 5" class="w-full h-24 md:h-32 object-cover" />
+          <img src="/assets/gk1.jpeg" alt="Pilates 6" class="w-full h-24 md:h-32 object-cover" />
+
+          <img src="/assets/gk1.jpeg" alt="Pilates 7" class="w-full h-24 md:h-32 object-cover" />
+          <img src="/assets/gk1.jpeg" alt="Pilates 8" class="w-full h-24 md:h-32 object-cover" />
+          <img src="/assets/gk1.jpeg" alt="Pilates 9" class="w-full h-24 md:h-32 object-cover" />
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Promo / Pricing block -->
-  <section class="max-w-6xl border rounded-md border-transparent p-10 mx-auto px-6 pb-20 lg:grid lg:grid-cols-2 bg-[#f5f0ea] lg:items-stretch lg:gap-12">
-    <!-- Text + price -->
-    <div class="flex flex-col justify-center bg-white/80 border border-[#e3d6cc] px-10 py-12">
-      <h3 class="text-sm tracking-[0.3em] font-[Playfair_Display] uppercase text-gray-600 mb-4">
-        Move Through Christmas
-      </h3>
+  <!-- Mobile menu -->
+  <div
+    id="mobileMenu"
+    class="fixed inset-0 z-50 hidden bg-[#F2EFE8]"
+  >
+    <!-- Logo -->
+    <div class="modal-logo mx-auto"></div>
 
-      <p class="text-3xl text-gray-800 mb-1">
-        €25.00
-      </p>
-      <p class="text-sm uppercase tracking-[0.25em] text-gray-500 mb-6">
-        One time
-      </p>
-
-      <p class="text-sm leading-relaxed text-gray-700 mb-6">
-        Stay moving this Christmas with the Grnwork. This Christmas On Demand
-        Studio includes 10 Pilates classes designed to fit around your festive plans, helping
-        you stay strong, calm, and connected.
-      </p>
-      <p class="text-sm leading-relaxed text-gray-700 mb-8">
-        Access energising, restorative, and cool‑down sessions anytime, anywhere.
-      </p>
-
+    <!-- Close Button -->
+    <div class="flex justify-end p-6">
       <button
-        class="inline-flex items-center justify-center rounded-none border border-gray-800 px-8 py-3 text-xs font-semibold tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition"
+        id="closeBtn"
+        class="text-3xl font-light text-gray-700"
       >
-        Sign Up &amp; Move with us
+        &times;
       </button>
     </div>
 
-    <!-- Right-side image / decorative area -->
-    <div class="mt-10 lg:mt-0 relative overflow-hidden rounded-lg">
-      <!-- Background image for the right-hand side -->
-      <img
-        src="/assets/gk2.jpeg"
-        alt="Christmas promo"
-        class="w-full h-full object-cover"
-      />
-
-      <!-- Optional subtle overlay text to mimic large serif typography -->
-      <div class="absolute inset-0 flex items-end justify-start p-10 pointer-events-none">
-        <p class="text-5xl md:text-6xl font-serif text-white/70 tracking-[0.15em] font-[Playfair_Display] uppercase">
-          Christmas
-        </p>
-      </div>
-    </div>
-  </section>
-
-</div>
-
-
-<section class="max-w-6xl mx-auto px-6 py-24">
-  <!-- In Person Classes -->
-  <div class="mb-24">
-    <h2 class="text-2xl md:text-3xl font-[Playfair_Display] text-gray-800 mb-3">
-      In Person Classes
-    </h2>
-    <p class="text-sm md:text-base text-gray-600 mb-6">
-      All of Georgia's in‑person classes are based in Letterkenny County Donegal.
-    </p>
-    <a
-      href="#"
-      class="inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition"
-    >
-      Grnwork pilates &amp; Wellness Studio
-    </a>
+    <!-- Menu Links -->
+    <nav class="flex flex-col items-center justify-center space-y-8 text-2xl font-medium">
+      <a href="#" class="hover:text-gray-500">Pilates</a>
+      <a href="#" class="hover:text-gray-500">Education</a>
+      <a href="#" class="hover:text-gray-500">About</a>
+      <a href="#" class="hover:text-gray-500">Contact</a>
+    </nav>
   </div>
 
-  <!-- Bottom area -->
-  <div class="grid md:grid-cols-[minmax(0,1.5fr)_minmax(0,2fr)] gap-10 items-start">
-    <!-- Newsletter + contact -->
-    <div>
-      <h3 class="text-xl font-[Playfair_Display] mb-6">
-        Grndwork.
-      </h3>
-
-      <div class="mb-8">
-        <p class="text-sm text-gray-700 mb-3">
-          Subscribe to the Grndwork Pilates Club newsletter
-        </p>
-        <button
-          class="w-full sm:w-auto inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition rounded-none"
-        >
-          Subscribe to the Grndwork  Club Newsletter
-        </button>
-      </div>
-
-      <div class="font-[Playfair_Display] text-gray-700 space-y-2">
-        <p>Any queries or questions email us!</p>
-        <a
-          href="#"
-          class="underline underline-offset-2 decoration-gray-700 hover:text-gray-900"
-        >
-          georgia@Grndwork.com
-        </a>
-      </div>
-    </div>
-
-    <!-- Instagram-style grid -->
-    <div class="grid grid-cols-3 gap-2 md:gap-3">
-      <!-- Replace each src with real image URLs -->
-      <img src="/assets/gk1.jpeg" alt="Pilates 1" class="w-full h-28 md:h-32 object-cover" />
-      <img src="/assets/gk1.jpeg" alt="Pilates 2" class="w-full h-28 md:h-32 object-cover" />
-      <img src="/assets/gk1.jpeg" alt="Pilates 3" class="w-full h-28 md:h-32 object-cover" />
-
-      <img src="/assets/gk1.jpeg" alt="Pilates 1" class="w-full h-28 md:h-32 object-cover" />
-      <img src="/assets/gk1.jpeg" alt="Pilates 2" class="w-full h-28 md:h-32 object-cover" />
-      <img src="/assets/gk1.jpeg" alt="Pilates 3" class="w-full h-28 md:h-32 object-cover" />
-
-      <img src="/assets/gk1.jpeg" alt="Pilates 1" class="w-full h-28 md:h-32 object-cover" />
-      <img src="/assets/gk1.jpeg" alt="Pilates 2" class="w-full h-28 md:h-32 object-cover" />
-      <img src="/assets/gk1.jpeg" alt="Pilates 3" class="w-full h-28 md:h-32 object-cover" />
-    </div>
-  </div>
-</section>
-
-
-<!-- Mobile menu -->
-<div
-  id="mobileMenu"
-  class="fixed inset-0 z-50 hidden bg-[#F2EFE8]"
->
-<!-- Logo -->
-      <div class="modal-logo mx-auto">
-        
-      </div>
-  <!-- Close Button -->
-  <div class="flex justify-end p-6">
-    <button
-      id="closeBtn"
-      class="text-3xl font-light text-gray-700"
-    >
-      &times;
-    </button>
-  </div>
-
-  <!-- Menu Links -->
-  <nav class="flex flex-col items-center justify-center space-y-8 text-2xl font-medium">
-    <a href="#" class="hover:text-gray-500">Pilates</a>
-    <a href="#" class="hover:text-gray-500">Education</a>
-    <a href="#" class="hover:text-gray-500">About</a>
-    <a href="#" class="hover:text-gray-500">Contact</a>
-  </nav>
-</div>
-
-
-    <script src="script.js"></script>
-    <script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        fontFamily: {
-          serif: ['"Playfair Display"', 'ui-serif', 'Georgia'],
-          sans: ['Inter', 'system-ui', 'sans-serif'],
+  <script src="script.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'ui-serif', 'Georgia'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          }
         }
       }
     }
-  }
-</script>
+  </script>
 
-  </body>
+</body>
+
+
 </html>
