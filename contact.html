@@ -24,7 +24,7 @@
         <!-- Desktop Links -->
         <div class="hidden lg:flex space-x-8 font-[Playfair_Display] font-light">
           <a href="#" class="text-gray-700 hover:text-black">Pilates</a>
-          <a href="#" class="text-gray-700 hover:text-black">Education</a>
+          <a href="education.html" class="text-gray-700 hover:text-black">Education</a>
           <a href="#" class="text-gray-700 hover:text-black">About</a>
           <a href="contact.html" class="text-gray-700 hover:text-black">Contact</a>
         </div>
@@ -44,105 +44,95 @@
   <!-- Page wrapper -->
   <div class="min-h-screen bg-white text-[#352b26] font-sans overflow-x-hidden">
 
-    <!-- Hero / Classes section -->
-    <section class="w-full bg-white">
-      <div class="w-full px-4 sm:px-6 py-10 sm:py-16 lg:flex lg:items-center lg:gap-16">
-        <!-- Image -->
-        <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-          <div class="w-full overflow-hidden rounded-lg bg-gray-200">
-            <img
-              src="/assets/gk1.jpeg"
-              alt="Pilates class"
-              class="w-full h-full object-cover max-w-full"
+    <!-- Contact Section -->
+<section class="w-full bg-white">
+  <div class="w-full px-4 sm:px-6 py-16 sm:py-24 lg:py-28">
+
+    <!-- Heading + intro -->
+    <div class="max-w-3xl">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-[Playfair_Display] text-gray-900 mb-8">
+        Contact Us
+      </h1>
+
+      <p class="text-sm sm:text-base text-gray-700 mb-3">
+        We’d love to hear from you!
+      </p>
+      <p class="text-sm sm:text-base text-gray-700 mb-3">
+        Whether you have questions about our Pilates classes, need guidance on building healthy habits,
+        or want to share your experience with our sessions, we’re here to help.
+      </p>
+      <p class="text-sm sm:text-base text-gray-700 mb-10">
+        Feel free to reach out to us at any time.
+      </p>
+    </div>
+
+    <!-- Form wrapper -->
+    <form class="max-w-3xl space-y-8">
+
+      <!-- Name -->
+      <div>
+        <label class="block text-sm tracking-wide text-gray-800 mb-2">
+          Name <span class="text-gray-500 text-xs">(required)</span>
+        </label>
+
+        <div class="grid gap-4 md:grid-cols-2">
+          <div>
+            <span class="block text-xs uppercase tracking-[0.2em] text-gray-600 mb-1">
+              First Name
+            </span>
+            <input
+              type="text"
+              class="w-full border border-gray-400 rounded-full px-4 py-2 text-sm outline-none focus:border-gray-900 transition"
+            />
+          </div>
+
+          <div>
+            <span class="block text-xs uppercase tracking-[0.2em] text-gray-600 mb-1">
+              Last Name
+            </span>
+            <input
+              type="text"
+              class="w-full border border-gray-400 rounded-full px-4 py-2 text-sm outline-none focus:border-gray-900 transition"
             />
           </div>
         </div>
-
-        <!-- Text -->
-        <div class="w-full lg:w-1/2 max-w-full">
-          <h2 class="text-2xl sm:text-3xl tracking-[0.2em] font-[Playfair_Display] uppercase text-gray-700 mb-4">
-            Grndwork Club Classes
-          </h2>
-          <p class="text-base leading-relaxed text-gray-700 mb-3">
-            Our classes are designed to both strengthen and stretch your body. Using a series of
-            Pilates movements, we focus on building overall strength through the core while
-            improving mobility.
-          </p>
-          <p class="text-base leading-relaxed text-gray-700">
-            These sessions help you move with greater ease and confidence in everyday life.
-          </p>
-        </div>
       </div>
-    </section>
 
-    <!-- Promo / Pricing block -->
-    <section class="w-full bg-[#f5f0ea]">
-      <div class="w-full px-4 sm:px-6 pb-16 pt-12 lg:grid lg:grid-cols-2 lg:items-stretch lg:gap-8">
-        <!-- Text + price card -->
-        <div class="w-full flex flex-col justify-center bg-[#f5f0ea] border border-[#e3d6cc] px-6 sm:px-10 py-10 sm:py-12 max-w-full">
-          <h3 class="text-xs sm:text-sm tracking-[0.3em] font-[Playfair_Display] uppercase text-gray-600 mb-4">
-            Move Through Christmas
-          </h3>
-
-          <p class="text-2xl sm:text-3xl text-gray-800 mb-1">
-            €25.00
-          </p>
-          <p class="text-xs sm:text-sm uppercase tracking-[0.25em] text-gray-500 mb-6">
-            One time
-          </p>
-
-          <p class="text-sm leading-relaxed text-gray-700 mb-6">
-            Stay moving this Christmas with the Grnwork. This Christmas On Demand
-            Studio includes 10 Pilates classes designed to fit around your festive plans, helping
-            you stay strong, calm, and connected.
-          </p>
-          <p class="text-sm leading-relaxed text-gray-700 mb-8">
-            Access energising, restorative, and cool‑down sessions anytime, anywhere.
-          </p>
-
-          <button
-            class="inline-flex items-center justify-center rounded-none border border-gray-800 px-6 sm:px-8 py-3 text-[10px] sm:text-xs font-semibold tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition"
-          >
-            Sign Up &amp; Move with us
-          </button>
-        </div>
-
-        <!-- Right-side image / decorative area -->
-        <div class="w-full mt-8 lg:mt-0 relative overflow-hidden rounded-lg max-w-full">
-          <img
-            src="/assets/gk2.jpeg"
-            alt="Christmas promo"
-            class="w-full h-full object-cover max-w-full"
-          />
-          <div class="absolute inset-0 flex items-end justify-start p-6 sm:p-10 pointer-events-none">
-            <p class="text-4xl sm:text-5xl md:text-6xl font-serif text-white/70 tracking-[0.15em] font-[Playfair_Display] uppercase">
-              Christmas
-            </p>
-          </div>
-        </div>
+      <!-- Email -->
+      <div>
+        <label class="block text-sm tracking-wide text-gray-800 mb-2">
+          Email <span class="text-gray-500 text-xs">(required)</span>
+        </label>
+        <input
+          type="email"
+          class="w-full border border-gray-400 rounded-full px-4 py-2 text-sm outline-none focus:border-gray-900 transition"
+        />
       </div>
-    </section>
 
-  </div>
+      <!-- Message -->
+      <div>
+        <label class="block text-sm tracking-wide text-gray-800 mb-2">
+          Message <span class="text-gray-500 text-xs">(required)</span>
+        </label>
+        <textarea
+          rows="5"
+          class="w-full border border-gray-400 rounded-3xl px-4 py-3 text-sm outline-none focus:border-gray-900 transition resize-none"
+        ></textarea>
+      </div>
 
-  <!-- In Person / lower section -->
-  <section class="w-full bg-white">
-    <div class="w-full px-4 sm:px-6 py-16 sm:py-24">
-      <!-- In Person Classes -->
-      <div class="mb-16">
-        <h2 class="text-2xl md:text-3xl font-[Playfair_Display] text-gray-800 mb-3">
-          In Person Classes
-        </h2>
-        <p class="text-sm md:text-base text-gray-600 mb-6">
-          All of Georgia's in‑person classes are based in Letterkenny County Donegal.
-        </p>
-        <a
-          href="#"
-          class="inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition"
+      <!-- Submit button -->
+      <div>
+        <button
+          type="submit"
+          class="inline-flex items-center justify-center border border-gray-900 px-10 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition rounded-none"
         >
-          Grnwork pilates &amp; Wellness Studio
-        </a>
+          Send
+        </button>
       </div>
+
+    </form>
+  </div>
+</section>
 
       <!-- Bottom area -->
       <div class="grid md:grid-cols-[minmax(0,1.5fr)_minmax(0,2fr)] gap-10 items-start w-full max-w-full">
