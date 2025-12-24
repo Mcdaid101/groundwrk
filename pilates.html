@@ -25,7 +25,7 @@
 
         <!-- Desktop Links -->
         <div class="hidden lg:flex space-x-8 font-[Playfair_Display] font-light">
-          <a href="#" class="text-gray-700 hover:text-black">Pilates</a>
+          <a href="pilates.html" class="text-gray-700 hover:text-black">Pilates</a>
           <a href="education.html" class="text-gray-700 hover:text-black">Education</a>
           <a href="#" class="text-gray-700 hover:text-black">About</a>
           <a href="contact.html" class="text-gray-700 hover:text-black">Contact</a>
@@ -48,6 +48,124 @@
 
 <!--Booking platform section-->
 <section>
+<!-- Booking Section -->
+<section class="w-full bg-white">
+  <div class="w-full px-4 sm:px-6 py-16 sm:py-24 lg:py-28">
+    <div class="max-w-3xl mx-auto">
+
+      <!-- Heading -->
+      <div class="text-center mb-10">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-[Playfair_Display] text-gray-900 mb-4">
+          Book a Class
+        </h1>
+        <p class="text-sm sm:text-base text-gray-700">
+          Reserve your spot in a Grndwork Pilates class. Choose the class type, day, and time that
+          works best for you.
+        </p>
+      </div>
+
+      <!-- Booking card -->
+      <div class="border border-[#e3d6cc] bg-[#f5f0ea] px-6 sm:px-8 py-8 sm:py-10">
+        <form class="space-y-8">
+
+          <!-- Class type -->
+          <div>
+            <label class="block text-sm tracking-wide text-gray-800 mb-2">
+              Class Type <span class="text-gray-500 text-xs">(required)</span>
+            </label>
+            <select
+              class="w-full border border-gray-400 rounded-full px-4 py-2 text-sm bg-white outline-none focus:border-gray-900 transition"
+            >
+              <option value="">Select a class</option>
+              <option value="foundations">Foundations Pilates</option>
+              <option value="energise">Energise Flow</option>
+              <option value="restore">Restore &amp; Reset</option>
+            </select>
+          </div>
+
+          <!-- Date + time -->
+          <div class="grid gap-6 md:grid-cols-2">
+            <!-- Date -->
+            <div>
+              <label class="block text-sm tracking-wide text-gray-800 mb-2">
+                Date <span class="text-gray-500 text-xs">(required)</span>
+              </label>
+              <input
+                type="date"
+                class="w-full border border-gray-400 rounded-full px-4 py-2 text-sm bg-white outline-none focus:border-gray-900 transition"
+              />
+            </div>
+
+            <!-- Time -->
+            <div>
+              <label class="block text-sm tracking-wide text-gray-800 mb-2">
+                Time <span class="text-gray-500 text-xs">(required)</span>
+              </label>
+              <select
+                class="w-full border border-gray-400 rounded-full px-4 py-2 text-sm bg-white outline-none focus:border-gray-900 transition"
+              >
+                <option value="">Select a time</option>
+                <option>07:00</option>
+                <option>09:00</option>
+                <option>12:00</option>
+                <option>18:00</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Name -->
+          <div>
+            <label class="block text-sm tracking-wide text-gray-800 mb-2">
+              Your Name <span class="text-gray-500 text-xs">(required)</span>
+            </label>
+            <input
+              type="text"
+              class="w-full border border-gray-400 rounded-full px-4 py-2 text-sm bg-white outline-none focus:border-gray-900 transition"
+            />
+          </div>
+
+          <!-- Email -->
+          <div>
+            <label class="block text-sm tracking-wide text-gray-800 mb-2">
+              Email <span class="text-gray-500 text-xs">(required)</span>
+            </label>
+            <input
+              type="email"
+              class="w-full border border-gray-400 rounded-full px-4 py-2 text-sm bg-white outline-none focus:border-gray-900 transition"
+            />
+          </div>
+
+          <!-- Notes -->
+          <div>
+            <label class="block text-sm tracking-wide text-gray-800 mb-2">
+              Notes (optional)
+            </label>
+            <textarea
+              rows="3"
+              class="w-full border border-gray-400 rounded-3xl px-4 py-3 text-sm bg-white outline-none focus:border-gray-900 transition resize-none"
+              placeholder="Injuries, preferences, anything we should know..."
+            ></textarea>
+          </div>
+
+          <!-- CTA -->
+          <div class="pt-2">
+            <button
+              type="submit"
+              class="inline-flex items-center justify-center border border-gray-900 px-10 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition rounded-none"
+            >
+              Confirm Booking
+            </button>
+          </div>
+        </form>
+
+        <!-- Small footnote -->
+        <p class="mt-6 text-[11px] text-gray-600">
+          By booking a class you agree to our studio policies and 24‑hour cancellation window.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 </section>
 
@@ -142,6 +260,7 @@
       }
     }
   </script>
+  <script type="module" src="https://unpkg.com/cally"></script>
 
 </body>
 
