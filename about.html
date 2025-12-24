@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body class="font-sans text-lg font-light tracking-wide overflow-x-hidden bg-white text-[#352b26]">
+
+    <!-- NAVBAR -->
+    <nav class="bg-[#F2EFE8] h-[72px] w-full">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex h-full items-center justify-between">
+
+          <!-- Logo -->
+          <a href="index.html">
+            <div class="nav-logo h-18 w-40 object-contain">
+              <!-- Add logo image here -->
+            </div>
+          </a>
+
+          <!-- Desktop Links -->
+          <div class="hidden lg:flex space-x-8 font-[Playfair_Display] font-light">
+            <a href="pilates.html" class="text-gray-700 hover:text-black">Pilates</a>
+            <a href="education.html" class="text-gray-700 hover:text-black">Education</a>
+            <a href="about.html" class="text-gray-700 hover:text-black">About</a>
+            <a href="contact.html" class="text-gray-700 hover:text-black">Contact</a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button id="menuBtn" class="lg:hidden p-2 text-gray-700 focus:outline-none">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page wrapper -->
+    <div class="min-h-screen bg-white text-[#352b26] font-sans overflow-x-hidden">
+
+      <!-- ABOUT HERO -->
+      <section class="w-full bg-white">
+        <div class="w-full px-4 sm:px-6 py-16 sm:py-20 lg:py-24">
+          <div class="max-w-3xl mx-auto text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-[Playfair_Display] text-gray-900 mb-6">
+              About Grndwork.
+            </h1>
+            <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+              Grndwork is a space to move, breathe, and reconnect with your body.
+              Through thoughtfully designed Pilates classes, we focus on strength, mobility,
+              and sustainable, feel‑good movement.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOUNDER SECTION -->
+      <section class="w-full bg-[#f5f0ea]">
+        <div class="w-full px-4 sm:px-6 py-16 sm:py-20 lg:py-24">
+          <div class="max-w-5xl mx-auto lg:flex lg:items-center lg:gap-12">
+
+            <!-- Image -->
+            <div class="w-full lg:w-1/2 mb-10 lg:mb-0">
+              <div class="overflow-hidden rounded-lg bg-gray-200">
+                <!-- Replace with real image -->
+                <img
+                  src="/assets/founder.jpg"
+                  alt="Founder portrait"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+
+            <!-- Text -->
+            <div class="w-full lg:w-1/2">
+              <h2 class="text-2xl sm:text-3xl font-[Playfair_Display] text-gray-900 mb-4">
+                Meet Your Instructor
+              </h2>
+              <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-3">
+                Grndwork was created to offer accessible, uplifting Pilates for every body.
+                With a focus on clear cueing and calm, supportive energy, classes are designed
+                to help you feel stronger, more grounded, and more at home in your body.
+              </p>
+              <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+                Expect intelligent sequencing, options for all levels, and an emphasis on
+                moving with intention rather than chasing perfection.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- PHILOSOPHY / VALUES -->
+      <section class="w-full bg-white">
+        <div class="w-full px-4 sm:px-6 py-16 sm:py-20 lg:py-24">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-[Playfair_Display] text-gray-900 mb-6 text-left sm:text-center">
+              Our Approach to Movement
+            </h2>
+
+            <div class="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
+              <p>
+                At Grndwork, movement is treated as a daily ritual, not a punishment.
+                Classes blend strength, stability, and mobility work so you leave feeling
+                energised rather than depleted.
+              </p>
+              <p>
+                Every session is built on clear foundations: considered breath, steady pacing,
+                and alignment that supports your long‑term health. You are encouraged to listen
+                to your body and adapt as you need.
+              </p>
+              <p>
+                Whether you are new to Pilates or returning to your mat, the focus is always on
+                meeting you where you are and helping you build sustainable strength over time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT YOU'LL FIND -->
+      <section class="w-full bg-[#f5f0ea]">
+        <div class="w-full px-4 sm:px-6 py-16 sm:py-20 lg:py-24">
+          <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-[Playfair_Display] text-gray-900 mb-8 text-left sm:text-center">
+              Inside the Grndwork Studio
+            </h2>
+
+            <div class="grid gap-10 md:grid-cols-3 text-sm sm:text-base text-gray-700">
+              <div>
+                <h3 class="text-base sm:text-lg font-[Playfair_Display] mb-3">
+                  In‑Person Classes
+                </h3>
+                <p class="leading-relaxed">
+                  Small group sessions focused on mindful strength, clear technique,
+                  and a calm studio environment so you can fully switch off.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-base sm:text-lg font-[Playfair_Display] mb-3">
+                  On‑Demand Library
+                </h3>
+                <p class="leading-relaxed">
+                  Short and longer classes to fit around real life – from energising flows
+                  to slower, restoring sessions for days you need to soften.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-base sm:text-lg font-[Playfair_Display] mb-3">
+                  Education &amp; Support
+                </h3>
+                <p class="leading-relaxed">
+                  Guidance on form, breath, and lifestyle habits so you understand
+                  not just what you are doing, but why it matters for your body.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOFT CTA -->
+      <section class="w-full bg-white">
+        <div class="w-full px-4 sm:px-6 py-16 sm:py-20 lg:py-24">
+          <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-2xl sm:text-3xl font-[Playfair_Display] text-gray-900 mb-4">
+              Ready to Move With Us?
+            </h2>
+            <p class="text-sm sm:text-base text-gray-700 mb-6">
+              Explore the class schedule, join us in the studio, or roll out your mat at home.
+              Grndwork is here to support your practice, wherever you are.
+            </p>
+            <a
+              href="booking.html"
+              class="inline-flex items-center justify-center border border-gray-900 px-8 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition rounded-none"
+            >
+              View Classes
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Mobile menu -->
+    <div
+      id="mobileMenu"
+      class="fixed inset-0 z-50 hidden bg-[#F2EFE8]"
+    >
+      <!-- Logo -->
+      <div class="modal-logo mx-auto"></div>
+
+      <!-- Close Button -->
+      <div class="flex justify-end p-6">
+        <button
+          id="closeBtn"
+          class="text-3xl font-light text-gray-700"
+        >
+          &times;
+        </button>
+      </div>
+
+      <!-- Menu Links -->
+      <nav class="flex flex-col items-center justify-center space-y-8 text-2xl font-medium">
+        <a href="pilates.html" class="hover:text-gray-500">Pilates</a>
+        <a href="education.html" class="hover:text-gray-500">Education</a>
+        <a href="about.html" class="hover:text-gray-500">About</a>
+        <a href="contact.html" class="hover:text-gray-500">Contact</a>
+      </nav>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['"Playfair Display"', 'ui-serif', 'Georgia'],
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+  </body>
+</html>
