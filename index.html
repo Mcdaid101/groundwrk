@@ -43,158 +43,203 @@
     </div>
   </nav>
 
-  <!-- Page wrapper -->
-  <div class="min-h-screen bg-white text-[#352b26] font-sans overflow-x-hidden">
+  <!-- Hero: 3-image strip with overlay title -->
+<section class="w-full bg-white">
+  <div class="relative w-full overflow-hidden">
 
-    <!-- Hero / Classes section -->
-    <section class="w-full bg-white">
-      <div class="w-full px-4 sm:px-6 py-10 sm:py-16 lg:flex lg:items-center lg:gap-16">
-        <!-- Image -->
-        <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-          <div class="w-full overflow-hidden rounded-lg bg-gray-200">
-            <img
-              src="/assets/gk1.jpeg"
-              alt="Pilates class"
-              class="w-full h-full object-cover max-w-full"
-            />
-          </div>
-        </div>
-
-        <!-- Text -->
-        <div class="w-full lg:w-1/2 max-w-full">
-          <h2 class="text-2xl sm:text-3xl tracking-[0.2em] font-[Playfair_Display] uppercase text-gray-700 mb-4">
-            Grndwork Club Classes
-          </h2>
-          <p class="text-base leading-relaxed text-gray-700 mb-3">
-            Our classes are designed to both strengthen and stretch your body. Using a series of
-            Pilates movements, we focus on building overall strength through the core while
-            improving mobility.
-          </p>
-          <p class="text-base leading-relaxed text-gray-700">
-            These sessions help you move with greater ease and confidence in everyday life.
-          </p>
-        </div>
+    <!-- Image strip -->
+    <div class="grid grid-cols-1 md:grid-cols-3 h-[60vh] md:h-[75vh]">
+      <!-- Left image -->
+      <div class="h-full">
+        <img
+          src=""
+          alt="Pilates pose left"
+          class="w-full h-full object-cover"
+        />
       </div>
-    </section>
 
-    <!-- Promo / Pricing block -->
-    <section class="w-full">
-      <div class="w-full px-4 sm:px-6 pb-16 pt-12 lg:grid lg:grid-cols-2 lg:items-stretch lg:gap-8">
-        <!-- Text + price card -->
-        <div class="w-full flex flex-col justify-center  px-6 sm:px-10 py-10 sm:py-12 max-w-full">
-          <h3 class="text-xs sm:text-sm tracking-[0.3em] font-[Playfair_Display] uppercase text-gray-600 mb-4">
-            Move Through Christmas
-          </h3>
-
-          <p class="text-2xl sm:text-3xl text-gray-800 mb-1">
-            €25.00
-          </p>
-          <p class="text-xs sm:text-sm uppercase tracking-[0.25em] text-gray-500 mb-6">
-            One time
-          </p>
-
-          <p class="text-sm leading-relaxed text-gray-700 mb-6">
-            Stay moving this Christmas with the Grnwork. This Christmas On Demand
-            Studio includes 10 Pilates classes designed to fit around your festive plans, helping
-            you stay strong, calm, and connected.
-          </p>
-          <p class="text-sm leading-relaxed text-gray-700 mb-8">
-            Access energising, restorative, and cool‑down sessions anytime, anywhere.
-          </p>
-
-          <button
-            class="inline-flex items-center justify-center rounded-none border border-gray-800 px-6 sm:px-8 py-3 text-[10px] sm:text-xs font-semibold tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition"
-          >
-            Sign Up &amp; Move with us
-          </button>
-        </div>
-
-        <!-- Right-side image / decorative area -->
-        <div class="w-full mt-8 lg:mt-0 relative overflow-hidden rounded-lg max-w-full">
-          <img
-            src="/assets/gk2.jpeg"
-            alt="Christmas promo"
-            class="w-full h-full object-cover max-w-full"
-          />
-          <div class="absolute inset-0 flex items-end justify-start text-center p-6 sm:p-10 pointer-events-none">
-            <p class="text-4xl sm:text-5xl md:text-6xl font-serif text-white/70 tracking-[0.15em] font-[Playfair_Display] uppercase">
-              Christmas
-            </p>
-          </div>
-        </div>
+      <!-- Center image -->
+      <div class="h-full">
+        <img
+          src=""
+          alt="Pilates pose center"
+          class="w-full h-full object-cover"
+        />
       </div>
-    </section>
+
+      <!-- Right image -->
+      <div class="h-full">
+        <img
+          src=""
+          alt="Pilates pose right"
+          class="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+
+    <!-- Overlay title -->
+    <div
+      class="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-4 text-center"
+    >
+      <p class="text-xs sm:text-sm tracking-[0.4em] text-white/80 mb-3 uppercase">
+        Your platform to
+      </p>
+      <h1
+        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[Playfair_Display] text-white tracking-[0.08em]"
+      >
+        Grnd Yourself
+      </h1>
+    </div>
+  </div>
+</section>
+
+
+<div class="bg-white py-12 px-4">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+    
+    <!-- Card 1 -->
+    <div class="flex flex-col items-center text-center">
+      <img
+        src="/assets/gk1.jpeg"
+        alt="Move with grndwork"
+        class="w-full h-64 sm:h-72 object-cover"
+      />
+      <h3 class="text-sm tracking-widest font-[Playfair_Display] uppercase mb-6 mt-6">
+        Move with Grndwork
+      </h3>
+      <button class="border border-black px-8 py-3 rounded-full text-sm hover:bg-black hover:text-white transition">
+        Click here for Pilates Classes
+      </button>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="flex flex-col items-center text-center">
+      <img
+        src="/assets/gk2.jpeg"
+        alt="Education"
+        class="w-full h-64 sm:h-72 object-cover"
+      />
+      <h3 class="text-sm tracking-widest font-[Playfair_Display] uppercase mb-6 mt-6">
+        Learn with Grndwork education
+      </h3>
+      <button class="border border-black px-8 py-3 rounded-full text-sm hover:bg-black hover:text-white transition">
+        Click here for our education centre
+      </button>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="flex flex-col items-center text-center">
+      <img
+        src="/assets/gk3.jpeg"
+        alt="About"
+        class="w-full h-64 sm:h-72 object-cover"
+      />
+      <h3 class="text-sm tracking-widest font-[Playfair_Display] uppercase mb-6 mt-6">
+        About
+      </h3>
+      <button class="border border-black px-8 py-3 rounded-full text-sm hover:bg-black hover:text-white transition">
+        Find out more about what we do
+      </button>
+    </div>
 
   </div>
-
-  <!-- In Person / lower section -->
-  <section class="w-full bg-white">
-    <div class="w-full px-4 sm:px-6 py-16 sm:py-24">
-      <!-- In Person Classes -->
-      <div class="mb-16 lg:ml-10">
-        <h2 class="text-2xl md:text-3xl font-[Playfair_Display] text-gray-800 mb-3">
-          In Person Classes
-        </h2>
-        <p class="text-sm md:text-base text-gray-600 mb-6">
-          All of Georgia's in‑person classes are based in Letterkenny County Donegal.
-        </p>
-        <a
-          href="#"
-          class="inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition"
-        >
-          Grnwork pilates &amp; Wellness Studio
-        </a>
-      </div>
+</div>
 
 
-     <!-- Bottom area -->
-<section>
-<div class="grid md:grid-cols-[minmax(0,1.5fr)_minmax(0,2fr)] gap-10 items-start w-full max-w-full">
 
-  <!-- Newsletter + contact -->
-  <div class="w-full max-w-full lg:ml-10">
-    <h3 class="text-2xl sm:text-3xl font-[Playfair_Display] text-gray-900 mb-4">
-      Grndwork.
-    </h3>
 
-    <p class="text-sm sm:text-base text-gray-700 mb-3">
-      Subscribe to the Grndwork Pilates Club newsletter to receive updates, studio news,
-      and resources to support your practice.
-    </p>
-
-    <button
-      class="mt-2 w-full sm:w-auto inline-flex items-center justify-center border border-gray-900 px-8 py-2.5 text-[11px] sm:text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition rounded-none"
-    >
-      Subscribe to the Grndwork Club Newsletter
-    </button>
-
-    <div class="mt-8 text-gray-700">
-      <p class="text-sm sm:text-base mb-1">
-        Any queries or questions, email us:
+<!-- In Person / lower section -->
+<section class="w-full bg-[#f5f0ea]">
+  <div class="w-full px-4 sm:px-6 py-16 sm:py-24">
+    <!-- In Person Classes -->
+    <div class="mb-12 max-w-2xl mx-auto text-center">
+      <h2 class="text-2xl md:text-3xl font-[Playfair_Display] text-gray-800 mb-4">
+        In Person Classes
+      </h2>
+      <p class="text-sm sm:text-base text-gray-600 mb-6">
+        All of Georgia's in‑person classes are based in Letterkenny, County Donegal.
       </p>
       <a
-        href="mailto:georgia@Grndwork.com"
-        class="text-sm sm:text-base underline underline-offset-2 decoration-gray-700 hover:text-gray-900 break-all font-[Playfair_Display]"
+        href="#"
+        class="inline-flex items-center justify-center border border-gray-900 px-8 py-2 text-xs tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition rounded-none"
       >
-        georgia@Grndwork.com
+        Grndwork Pilates &amp; Wellness Studio
       </a>
     </div>
   </div>
-
-<div class="w-full max-w-full grid grid-cols-2 md:grid-cols-3 gap-1.5 sm:gap-2 mb-16">
-  <img src="/assets/gk1.jpeg" alt="Pilates 1" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-  <img src="/assets/gk1.jpeg" alt="Pilates 2" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-  <img src="/assets/gk1.jpeg" alt="Pilates 3" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-
-  <img src="/assets/gk1.jpeg" alt="Pilates 4" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-  <img src="/assets/gk1.jpeg" alt="Pilates 5" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-  <img src="/assets/gk1.jpeg" alt="Pilates 6" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-
-  <img src="/assets/gk1.jpeg" alt="Pilates 7" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-  <img src="/assets/gk1.jpeg" alt="Pilates 8" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-  <img src="/assets/gk1.jpeg" alt="Pilates 9" class="w-full h-20 sm:h-24 md:h-28 object-cover" />
-</div>
 </section>
+
+
+
+<section class="w-full bg-white">
+  <div class="mt-20 grid md:grid-cols-[minmax(0,1.8fr)_minmax(0,1.2fr)] gap-12 items-start w-full max-w-6xl mx-auto px-4 sm:px-6">
+
+    <!-- Newsletter + contact (left, smaller button) -->
+    <div class="w-full max-w-full lg:ml-10">
+      <h3 class="text-3xl sm:text-4xl font-[Playfair_Display] text-gray-900 mb-6">
+        Grndwork Pilates Club.
+      </h3>
+
+      <button
+        class="inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-[10px] sm:text-[11px] tracking-[0.25em] uppercase text-gray-900 hover:bg-gray-900 hover:text-white transition rounded-full"
+      >
+        Subscribe to the Grndwork Pilates Club Newsletter
+      </button>
+
+      <div class="mt-8 text-gray-700">
+        <p class="text-sm sm:text-base mb-3">
+          Any queries or questions email us!
+        </p>
+        <a
+          href="mailto:georgia@Grndwork.com"
+          class="text-sm sm:text-base underline underline-offset-2 decoration-gray-700 hover:text-gray-900 break-all font-[Playfair_Display]"
+        >
+          georgia@Grndwork.com
+        </a>
+      </div>
+    </div>
+
+    <!-- 3x3 image grid (right, compact) -->
+    <div class="w-full max-w-md md:max-w-sm lg:max-w-md ml-auto mb-15">
+      <div class="grid grid-cols-3 gap-2 sm:gap-3">
+        <!-- Row 1 -->
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk1.jpeg" alt="Post 1" class="w-full aspect-square object-cover" />
+        </div>
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk2.jpeg" alt="Post 2" class="w-full aspect-square object-cover" />
+        </div>
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk3.jpeg" alt="Post 3" class="w-full aspect-square object-cover" />
+        </div>
+
+        <!-- Row 2 -->
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk3.jpeg" alt="Post 4" class="w-full aspect-square object-cover" />
+        </div>
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk1.jpeg" alt="Post 5" class="w-full aspect-square object-cover" />
+        </div>
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk3.jpeg" alt="Post 6" class="w-full aspect-square object-cover" />
+        </div>
+
+        <!-- Row 3 -->
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk2.jpeg" alt="Post 7" class="w-full aspect-square object-cover" />
+        </div>
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk3.jpeg" alt="Post 8" class="w-full aspect-square object-cover" />
+        </div>
+        <div class="relative overflow-hidden">
+          <img src="/assets/gk1.jpeg" alt="Post 9" class="w-full aspect-square object-cover" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
   <!-- Mobile menu -->
   <div
