@@ -43,12 +43,12 @@
     </div>
   </nav>
 
-  <!-- Hero: 3-image strip with overlay title -->
+<!-- Hero: 3-image strip with overlay title (no stacking) -->
 <section class="w-full bg-white">
-  <div class="relative w-full overflow-hidden">
+  <div class="relative w-full overflow-hidden h-[60vh] md:h-[75vh]">
 
-    <!-- Image strip -->
-    <div class="grid grid-cols-1 md:grid-cols-3 h-[60vh] md:h-[75vh]">
+    <!-- Image strip: always 3 columns -->
+    <div class="grid grid-cols-3 h-full">
       <!-- Left image -->
       <div class="h-full">
         <img
@@ -81,7 +81,7 @@
     <div
       class="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-4 text-center"
     >
-      <p class="text-xs sm:text-sm tracking-[0.4em] text-white/80 mb-3 uppercase">
+      <p class="text-[10px] sm:text-xs md:text-sm tracking-[0.4em] text-white/80 mb-3 uppercase">
         Your platform to
       </p>
       <h1
@@ -92,6 +92,8 @@
     </div>
   </div>
 </section>
+
+
 
 
 <div class="bg-white py-12 px-4">
